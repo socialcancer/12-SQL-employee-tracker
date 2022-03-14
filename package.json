@@ -1,10 +1,9 @@
 {
   "name": "12-mysql-employee-tracker",
   "version": "1.0.0",
-  "description": "",
+  "description": "Employee Tracker",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "repository": {
@@ -14,9 +13,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/socialcancer/12-SQL-employee-tracker.git/issues"
-  },
   "homepage": "https://github.com/socialcancer/12-SQL-employee-tracker.git#readme",
   "dependencies": {
     "console.table": "*",
