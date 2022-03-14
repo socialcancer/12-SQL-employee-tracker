@@ -4,22 +4,23 @@
 
 ## Description
 
-Weather app is an application that can be used to search for weather in different areas.
+Employee Tracker is an interface that makes it simple for non-developers to view, interact, and delete stored information.
 
 ## Acceptance Criteria
 
-- Search for a city.
-- Present the USER with current and future conditions for that city.
-- User can view current weather conditions for that city.
-- View the UV index
-- Click on a city in the search history
-- User presented with current and future conditions for that city
+- Use the **inquirer package**
+- Use the **mySQL2 package**
+- Use the **console.table.package**
+- Follows the table schema outlined in the homework instructions
 
 ## Installation
 
-```
-https://circuitapp.xyz/weather-api/
-```
+- Install npm init -y
+- npm i
+- Create your database
+- Run node server.js
+- Source your schema.sql file
+- Source your seed.sql file
 
 ## License
 
