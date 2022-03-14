@@ -2,6 +2,10 @@
 
 ![Employee Tracker](/assets/main.gif)
 
+## Database Design
+
+![Provided Design](/assets/starting-database-design.jpg)
+
 ## Description
 
 Employee Tracker is an interface that makes it simple for non-developers to view, interact, and delete stored information.
@@ -28,7 +32,7 @@ This project has no license
 
 ## Submission
 
-[View the app](https://circuitapp.xyz/weather-api/)
+[View the app](https://drive.google.com/file/d/19lu_yEvQxo-th3ILA5MIkFB443CjFZ7j/view?usp=sharing)
 
 ## Questions
 
