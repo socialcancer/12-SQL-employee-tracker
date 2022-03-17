@@ -2,6 +2,8 @@
 
 ![Employee Tracker](/assets/main.gif)
 
+![Test](/assets/main.gif)
+
 ## Database Design
 
 ![Provided Design](/assets/starting-database-design.jpg)
