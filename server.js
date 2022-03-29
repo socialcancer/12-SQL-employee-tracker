@@ -12,8 +12,8 @@ const connection = mysql.createConnection({
 
   user: 'root',
 
-  password: '****',
-  database: '****'
+  password: 'B1gg13smalls!',
+  database: 'employeesDB'
 });
 
 connection.connect(function (err) {
@@ -108,7 +108,7 @@ function viewEmployeeByDepartment() {
   console.log("Viewing employees by department\n");
 
   var query =
-    `SELECT d.id, d.name, r.salary AS budget
+    `SELECT d.id, d.name
   FROM employee e
   LEFT JOIN role r
 	ON e.role_id = r.id
@@ -222,7 +222,8 @@ function promptInsert(roleChoices) {
           if (err) throw err;
 
           console.table(res);
-          console.log(res.insertedRows + "Inserted successfully!\n");
+          // console.log(res);
+          console.log(res.affectedRows + " Inserted successfully!\n");
 
           firstPrompt();
         });
@@ -275,12 +276,14 @@ function promptDelete(deleteEmployeeChoices) {
     });
 }
 
+// updateEmployeeRole();
+
+// // function updateEmployeeRole() {
+// //   employeeArray();
+
+// // }
+
 function updateEmployeeRole() {
-  employeeArray();
-
-}
-
-function employeeArray() {
   console.log("Updating an employee");
 
   var query =

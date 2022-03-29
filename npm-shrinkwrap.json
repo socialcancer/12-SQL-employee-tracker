@@ -1,11 +1,11 @@
 {
-  "name": "12-mysql-employee-tracker",
+  "name": "12-SQL-employee-tracker",
   "version": "1.0.0",
   "lockfileVersion": 2,
   "requires": true,
   "packages": {
     "": {
-      "name": "12-mysql-employee-tracker",
+      "name": "12-SQL-employee-tracker",
       "version": "1.0.0",
       "license": "ISC",
       "dependencies": {
