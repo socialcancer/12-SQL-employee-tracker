@@ -12,8 +12,8 @@ const connection = mysql.createConnection({
 
   user: 'root',
 
-  password: 'B1gg13smalls!',
-  database: 'employeesDB'
+  password: '****',
+  database: '****'
 });
 
 connection.connect(function (err) {
@@ -372,7 +372,7 @@ function promptEmployeeRole(employeeChoices, roleChoices) {
 function addRole() {
 
   var query =
-    `SELECT d.id, d.name, r.salary AS budget
+    `SELECT d.id, d.name
     FROM employee e
     JOIN role r
     ON e.role_id = r.id
